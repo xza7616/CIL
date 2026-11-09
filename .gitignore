@@ -1,0 +1,26 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Model weights and generated training artifacts
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+runs/
+logs/
+checkpoints/
+wandb/
+
+# Local secrets and editor/system files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
